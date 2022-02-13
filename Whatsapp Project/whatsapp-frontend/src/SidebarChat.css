@@ -1,0 +1,26 @@
+.sidebarChat{
+    display:flex;
+    padding: 19px;
+    cursor:pointer;
+    border-bottom: 1px solid rgb(77, 77, 77);
+ 
+    
+}
+.sidebarChat:hover{
+    background-color: rgb(63, 63, 63);
+}
+.sidebarChat__info > h2{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.sidebarChat__info{
+    margin-left: 13px;
+}
+.msg{
+    font-size: smaller;
+    color:#878786;
+}
+.pendingmsg{
+    flex:1;
+    padding-left:267px;
+}
